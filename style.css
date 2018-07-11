@@ -1,0 +1,111 @@
+
+/*Reset Margins*/
+* {
+    margin: 0;
+}
+
+.container {
+    border: solid;
+    width: 1200px;
+    margin: 20px;
+}
+
+.wrapper {
+    margin: 20px;
+}
+
+/* Begins Box Position */
+
+.head {
+    background-color: red;
+    height: 50px;
+    margin: 20px;
+    position: relative;    
+}
+
+.mainmenu {
+    background-color: olivedrab;
+    height: 40px;
+    margin: 20px; 
+    position: relative;    
+}
+
+.wrappercontent {
+    height: 100px;
+    margin: 20px;
+    clear: both;
+}
+
+.maincontent {
+    background-color: skyblue;
+    height: 100px;
+    width: 700px;
+    float: left;
+    position: relative;    
+}
+
+.submenu {
+    background-color: slateblue;
+    height: 100px;    
+    width: 400px;
+    float: right;
+    position: relative;    
+}
+
+/* Ends Box Position */
+
+
+
+/*Text Position*/
+
+.head h1 {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    bottom: 0;
+    left: 70px;
+}
+
+.mainmenu p {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 70px;
+}
+
+.maincontent p {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    left: 70px;
+}
+
+.submenu p {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    left: 130px;
+}
+
+.footer p {
+    position: relative;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    left: 70px;
+}
+
+/* Ends Text Position */
+
+/* Begins Footer */
+
+.footer {
+    background-color: gray;
+    margin: 20px;
+    height: 50px;
+}
+
+/* Ends Footer */
